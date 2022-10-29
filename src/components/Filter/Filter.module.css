@@ -1,0 +1,23 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+
+.filterName {
+  font-size: 20px;
+}
+
+.filterInput {
+  height: 30px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.filterInput:focus {
+  border-color: rgb(17, 0, 144);
+}

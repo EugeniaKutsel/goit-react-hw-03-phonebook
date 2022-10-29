@@ -1,0 +1,28 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  font-size: 20px;
+}
+
+.contacts__name {
+  margin-top: 10px;
+}
+
+.deleteButton {
+  margin-left: 20px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  background-color: rgb(17, 0, 144);
+  color: #fff;
+  border: 1px solid transparent;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #fff;
+  color: rgb(17, 0, 144);
+  border: 1px solid rgb(17, 0, 144);
+}
