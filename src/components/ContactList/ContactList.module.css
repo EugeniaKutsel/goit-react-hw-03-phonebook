@@ -8,6 +8,8 @@
 
 .contacts__name {
   margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .deleteButton {
