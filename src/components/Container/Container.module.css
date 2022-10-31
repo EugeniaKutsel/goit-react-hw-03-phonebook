@@ -1,3 +1,9 @@
 .container {
   margin-left: 20px;
 }
+
+p {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(17, 0, 144);
+}
